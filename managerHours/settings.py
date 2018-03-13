@@ -27,10 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
-INSTALLED_APPS = [
+NATIVE_APPS  = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,6 +37,17 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+THIRD_APPS = [
+    'rest_framework',
+]
+
+MY_APPS = [
+    'driver',
+]
+
+INSTALLED_APPS = NATIVE_APPS + THIRD_APPS + MY_APPS
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
