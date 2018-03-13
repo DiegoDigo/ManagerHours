@@ -12,4 +12,4 @@ class Veicle(models.Model):
 
     class Meta:
         verbose_name_plural = 'Veicles'
-        verbose_name = 'Veicles'
+        verbose_name = 'Veicle'
