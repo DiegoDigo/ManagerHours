@@ -44,6 +44,7 @@ THIRD_APPS = [
 
 MY_APPS = [
     'driver',
+    'mounth',
 ]
 
 INSTALLED_APPS = NATIVE_APPS + THIRD_APPS + MY_APPS
