@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class MounthConfig(AppConfig):
-    name = 'mounth'
+class MonthConfig(AppConfig):
+    name = 'month'
