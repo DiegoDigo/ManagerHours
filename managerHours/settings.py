@@ -45,10 +45,13 @@ THIRD_APPS = [
 MY_APPS = [
     'driver',
     'month',
+    'user',
 ]
 
 INSTALLED_APPS = NATIVE_APPS + THIRD_APPS + MY_APPS
 
+
+AUTH_USER_MODEL = 'user.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
